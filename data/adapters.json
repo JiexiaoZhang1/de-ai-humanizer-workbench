@@ -1,0 +1,1645 @@
+[
+  {
+    "id": "blader_humanizer",
+    "name": "Humanizer",
+    "repo": "blader/humanizer",
+    "path": "repos/english-humanizers/blader_humanizer",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "A skill for Claude Code and OpenCode that removes signs of AI-generated writing from text, making it sound more natural and human.",
+    "integration_mode": "native_skill",
+    "prompt_files": [
+      "SKILL.md",
+      "skill.md",
+      "README.md",
+      "readme.md",
+      "WARP.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "stephenturner_skill_deslop",
+    "name": "Skill Deslop",
+    "repo": "stephenturner/skill-deslop",
+    "path": "repos/english-humanizers/stephenturner_skill-deslop",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "A Claude skill for removing AI writing patterns from prose.",
+    "integration_mode": "native_skill",
+    "prompt_files": [
+      "SKILL.md",
+      "skill.md",
+      "README.md",
+      "readme.md",
+      "references/examples.md",
+      "references/phrases.md",
+      "references/structures.md",
+      "references/tropes.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "jalaalrd_anti_ai_slop_writing",
+    "name": "Anti AI Slop Writing",
+    "repo": "jalaalrd/anti-ai-slop-writing",
+    "path": "repos/english-humanizers/jalaalrd_anti-ai-slop-writing",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "Anti-AI-Slop Writing Skill",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "skills/anti-ai-slop-writing/SKILL.md",
+      "skills/anti-ai-slop-writing/references/banned-words.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "gabelul_slopbuster",
+    "name": "Slopbuster",
+    "repo": "gabelul/slopbuster",
+    "path": "repos/english-humanizers/gabelul_slopbuster",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "Slopbuster prompt material for removing AI-text tells and rebuilding rhythm.",
+    "integration_mode": "native_skill",
+    "prompt_files": [
+      "SKILL.md",
+      "skill.md",
+      "README.md",
+      "readme.md",
+      "CLAUDE.md",
+      "SKILL-OC.md",
+      "scoring.md",
+      "docs/setup-guide.md",
+      "rules/academic.md",
+      "rules/code-comments.md",
+      "rules/code-commits.md",
+      "rules/code-docstrings.md",
+      "rules/code-llm-tells.md",
+      "rules/code-naming.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "hugolopes45_llmstrip",
+    "name": "Llmstrip",
+    "repo": "HugoLopes45/llmstrip",
+    "path": "repos/english-humanizers/HugoLopes45_llmstrip",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "Strip AI patterns from text and code. Prompt + linter.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "CURSOR.md",
+      "WARP.md",
+      "prompts/agents.md",
+      "prompts/claude-code.md",
+      "prompts/copilot.md",
+      "prompts/openai.md",
+      "prompts/system-prompt.md",
+      "rules/api-design.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "puneethkotha_humanizer_workbench",
+    "name": "Humanizer Workbench",
+    "repo": "puneethkotha/humanizer-workbench",
+    "path": "repos/english-humanizers/puneethkotha_humanizer-workbench",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "A CLI tool and Claude Code skill for rewriting AI-generated text into natural, human-quality writing.",
+    "integration_mode": "native_skill",
+    "prompt_files": [
+      "SKILL.md",
+      "skill.md",
+      "README.md",
+      "readme.md",
+      "pyproject.toml",
+      "docs/architecture.md",
+      "src/humanizer/__init__.py",
+      "src/humanizer/cli/__init__.py",
+      "src/humanizer/cli/main.py",
+      "src/humanizer/core/__init__.py",
+      "src/humanizer/core/engine.py",
+      "src/humanizer/core/models.py"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "zh4men9_academic_deai",
+    "name": "Academic Deai",
+    "repo": "zh4men9/academic-deai",
+    "path": "repos/english-humanizers/zh4men9_academic-deai",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "Academic de-AI skill with an English workflow and a Chinese mirror reference.",
+    "integration_mode": "native_skill",
+    "prompt_files": [
+      "SKILL.md",
+      "skill.md",
+      "README.md",
+      "readme.md",
+      "references/claim-calibration.md",
+      "references/core-rules.md",
+      "references/diagnostic-checklist.md",
+      "references/manual-check-items.md",
+      "references/non-goals.md",
+      "references/rewrite-patterns.md",
+      "references/section-guidance.md",
+      "references/surface-hygiene.md",
+      "references/transparent-reporting.md",
+      "references/validation-rubric.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "devswha_patina",
+    "name": "Patina",
+    "repo": "devswha/patina",
+    "path": "repos/english-humanizers/devswha_patina",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "Multilingual anti-slop pattern library with English-ready writing rules.",
+    "integration_mode": "native_skill",
+    "prompt_files": [
+      "SKILL.md",
+      "skill.md",
+      "README.md",
+      "readme.md",
+      "package.json",
+      "README_JA.md",
+      "README_KR.md",
+      "README_ZH.md",
+      "SKILL-MAX.md",
+      "WARP.md",
+      "patina-max/SKILL.md",
+      "docs/harness-design.md",
+      "docs/social/gstack-cardnews.md",
+      "docs/social/gstack-thread.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "theclaymethod_unslop",
+    "name": "Unslop",
+    "repo": "theclaymethod/unslop",
+    "path": "repos/english-humanizers/theclaymethod_unslop",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "An agent skill for humanizing AI-generated content.",
+    "integration_mode": "native_skill",
+    "prompt_files": [
+      "SKILL.md",
+      "skill.md",
+      "README.md",
+      "readme.md",
+      "references/edit-library.md",
+      "references/fact-preservation.md",
+      "references/personality-guide.md",
+      "references/rubric.md",
+      "references/taboo-phrases.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "mathhyphen_openclaw_humanizer",
+    "name": "Openclaw Humanizer",
+    "repo": "mathhyphen/openclaw-humanizer",
+    "path": "repos/english-humanizers/mathhyphen_openclaw-humanizer",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "OpenClaw Humanizer",
+    "integration_mode": "native_skill",
+    "prompt_files": [
+      "SKILL.md",
+      "skill.md",
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "dadananjesha_ai_content_detector_humanizer",
+    "name": "AI Content Detector Humanizer",
+    "repo": "DadaNanjesha/AI-content-detector-Humanizer",
+    "path": "repos/english-humanizers/DadaNanjesha_AI-content-detector-Humanizer",
+    "kind": "llm_prompt",
+    "category": "Academic",
+    "description": "AI Content Detector & Humanizer",
+    "integration_mode": "decomposed_python",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "requirements.txt",
+      "api/humanize_api.py",
+      "pages/ai_detection.py",
+      "pages/humanize_text.py"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "dixon2004_ai_humanizer",
+    "name": "AI Humanizer",
+    "repo": "dixon2004/ai-humanizer",
+    "path": "repos/english-humanizers/dixon2004_ai-humanizer",
+    "kind": "llm_prompt",
+    "category": "Academic",
+    "description": "AI humanizer project material adapted into a De-AI rewrite node.",
+    "integration_mode": "decomposed_python",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "requirements.txt",
+      "prompts/humanizer.txt",
+      "src/main.py",
+      "src/api/__init__.py",
+      "src/api/gemini.py",
+      "src/helpers/__init__.py",
+      "src/helpers/handlers.py"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "sappymukherjee214_ai_humanizer",
+    "name": "AI Humanizer",
+    "repo": "Sappymukherjee214/AI-Humanizer",
+    "path": "repos/english-humanizers/Sappymukherjee214_AI-Humanizer",
+    "kind": "llm_prompt",
+    "category": "Academic",
+    "description": "AI Humanizer transformer material adapted into a De-AI rewrite node.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "backend/package-lock.json",
+      "backend/package.json",
+      "backend/test-pg-raw.ts",
+      "backend/test-signup.ts",
+      "backend/tsconfig.json",
+      "frontend/package-lock.json"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "neptuneland_ai_humanizer_for_academic_writing",
+    "name": "AI Humanizer For Academic Writing",
+    "repo": "Neptuneland/AI-humanizer-for-academic-writing",
+    "path": "repos/english-humanizers/Neptuneland_AI-humanizer-for-academic-writing",
+    "kind": "llm_prompt",
+    "category": "Academic",
+    "description": "Academic writing humanizer material adapted into a De-AI rewrite node.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "alimehdi512_ai_text_humanizer_app",
+    "name": "AI Text Humanizer App",
+    "repo": "AliMehdi512/AI-Text-Humanizer-App",
+    "path": "repos/english-humanizers/AliMehdi512_AI-Text-Humanizer-App",
+    "kind": "llm_prompt",
+    "category": "Academic",
+    "description": "De-AI source material from AliMehdi512/AI-Text-Humanizer-App.",
+    "integration_mode": "decomposed_python",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "requirements.txt",
+      "AUTHENTICATION_SYSTEM.md",
+      "DEPLOYMENT.md",
+      "DEPLOYMENT_BUSINESS_CLASS.md",
+      "DEPLOYMENT_CHECKLIST.md",
+      "DEPLOYMENT_STEPS.md",
+      "FINAL_SUMMARY.md",
+      "HUGGINGFACE_DEPLOYMENT.md",
+      "IMPROVEMENTS.md",
+      "PROJECT_SUMMARY.md",
+      "QUICK_START.md",
+      "QUICK_START_AUTH.md",
+      "README_API.md",
+      "README_AUTH.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "dadananjesha_ai_text_humanizer_app",
+    "name": "AI Text Humanizer App",
+    "repo": "DadaNanjesha/AI-Text-Humanizer-App",
+    "path": "repos/english-humanizers/DadaNanjesha_AI-Text-Humanizer-App",
+    "kind": "llm_prompt",
+    "category": "Academic",
+    "description": "AI Text Humanizer App",
+    "integration_mode": "decomposed_python",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "requirements.txt"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "mariusaure_anti_slop_writing",
+    "name": "Anti Slop Writing",
+    "repo": "MariusAure/anti-slop-writing",
+    "path": "repos/english-humanizers/MariusAure_anti-slop-writing",
+    "kind": "llm_prompt",
+    "category": "Academic",
+    "description": "Anti-slop writing rules adapted into a De-AI rewrite node.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "writing.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "abdibrokhim_humanaize",
+    "name": "Humanaize",
+    "repo": "abdibrokhim/humanaize",
+    "path": "repos/english-humanizers/abdibrokhim_humanaize",
+    "kind": "llm_prompt",
+    "category": "Academic",
+    "description": "Humanizer app material adapted into a De-AI rewrite node.",
+    "integration_mode": "decomposed_node_web",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "package.json",
+      "TUTORIAL.md",
+      "src/app/layout.tsx",
+      "src/app/overlaycard.tsx",
+      "src/app/page.tsx",
+      "src/app/api/gpt/route.ts",
+      "src/app/api/humanaize/route.ts"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "horisystems_humanicer",
+    "name": "Humanicer",
+    "repo": "horisystems/humanicer",
+    "path": "repos/english-humanizers/horisystems_humanicer",
+    "kind": "llm_prompt",
+    "category": "Academic",
+    "description": "English text-rewriting material focused on fluency and natural phrasing.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "aneeshvrao_humanify",
+    "name": "Humanify",
+    "repo": "AneeshVRao/Humanify",
+    "path": "repos/english-humanizers/AneeshVRao_Humanify",
+    "kind": "llm_prompt",
+    "category": "Academic",
+    "description": "Humanify - AI Content Humanizer",
+    "integration_mode": "decomposed_node_web",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "package.json",
+      "POSTHOG_SETUP.md",
+      "PROGRESS.md",
+      "SENTRY_SETUP.md",
+      "docs/BACKEND_SETUP.md",
+      "docs/STRIPE_SETUP.md",
+      "docs/SUPABASE_SETUP.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "repo_1003715231_humanize_ai",
+    "name": "Humanize AI",
+    "repo": "1003715231/humanize-ai",
+    "path": "repos/english-humanizers/1003715231_humanize-ai",
+    "kind": "llm_prompt",
+    "category": "Academic",
+    "description": "Humanize AI project material adapted into a De-AI rewrite node.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "tanchunsiong_humanize_rewriter",
+    "name": "Humanize Rewriter",
+    "repo": "tanchunsiong/humanize-rewriter",
+    "path": "repos/english-humanizers/tanchunsiong_humanize-rewriter",
+    "kind": "llm_prompt",
+    "category": "Academic",
+    "description": "AI Writing Humanizer — Rewrites AI-generated text to sound more natural and human.",
+    "integration_mode": "decomposed_node_web",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "package.json"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "humantextpro_mcp_server",
+    "name": "MCP Server",
+    "repo": "humantextpro/mcp-server",
+    "path": "repos/english-humanizers/humantextpro_mcp-server",
+    "kind": "llm_prompt",
+    "category": "Academic",
+    "description": "humantext.pro MCP Server",
+    "integration_mode": "decomposed_mcp",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "package.json",
+      "src/api-client.ts",
+      "src/index.ts"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "arshvermagit_raw_ai",
+    "name": "RAW AI",
+    "repo": "ArshVermaGit/RAW.AI",
+    "path": "repos/english-humanizers/ArshVermaGit_RAW-AI",
+    "kind": "llm_prompt",
+    "category": "Academic",
+    "description": "RAW.AI humanizer material adapted into a De-AI rewrite node.",
+    "integration_mode": "decomposed_node_web",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "package.json",
+      "REFUND_POLICY.md",
+      "ROADMAP.md",
+      "src/App.tsx",
+      "src/main.tsx",
+      "src/vite-env.d.ts",
+      "src/config/site.ts"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "mbthimmaraju_scholar_humanize_ai",
+    "name": "Scholar Humanize AI",
+    "repo": "MBTHIMMARAJU/scholar-humanize-ai",
+    "path": "repos/english-humanizers/MBTHIMMARAJU_scholar-humanize-ai",
+    "kind": "llm_prompt",
+    "category": "Academic",
+    "description": "ScholarHumanize AI - Academic Transformation Protocol",
+    "integration_mode": "decomposed_node_web",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "package.json",
+      "WHY_THIS_TOOLS_USED.md",
+      "src/App.tsx",
+      "src/main.tsx",
+      "src/lib/firebase.ts",
+      "src/services/geminiService.ts"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "rudra496_stealthhumanizer",
+    "name": "Stealthhumanizer",
+    "repo": "rudra496/StealthHumanizer",
+    "path": "repos/english-humanizers/rudra496_StealthHumanizer",
+    "kind": "llm_prompt",
+    "category": "Academic",
+    "description": "StealthHumanizer material using multi-pass rewriting and style variation.",
+    "integration_mode": "decomposed_node_web",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "package.json",
+      "API_USAGE.md",
+      "ARCHITECTURE.md",
+      "ROADMAP.md",
+      "STYLE_ENGINE.md",
+      "SUPPORT.md",
+      "docs/BENCHMARK_METHODOLOGY.md",
+      "docs/DATA_PIPELINE.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "coding_with_akrash_textflow_ai_text_humanizer",
+    "name": "Textflow AI Text Humanizer",
+    "repo": "Coding-with-Akrash/TextFlow-AI-Text-Humanizer",
+    "path": "repos/english-humanizers/Coding-with-Akrash_TextFlow-AI-Text-Humanizer",
+    "kind": "llm_prompt",
+    "category": "Academic",
+    "description": "TextFlow AI-Text Humanizer",
+    "integration_mode": "decomposed_python",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "requirements.txt"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "howdoiusekeyboard_truevoice_mcp",
+    "name": "Truevoice MCP",
+    "repo": "howdoiusekeyboard/TrueVoice-MCP",
+    "path": "repos/english-humanizers/howdoiusekeyboard_TrueVoice-MCP",
+    "kind": "llm_prompt",
+    "category": "Academic",
+    "description": "TrueVoice MCP material for removing AI slop from prose.",
+    "integration_mode": "decomposed_mcp",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "package.json",
+      "CLAUDE_DESKTOP_SETUP.md",
+      "api/check.ts",
+      "api/examples.ts",
+      "api/index.ts",
+      "api/mcp.ts",
+      "api/rules.ts"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "imsv1301_unmask_ai",
+    "name": "Unmask AI",
+    "repo": "imsv1301/unmask-ai",
+    "path": "repos/english-humanizers/imsv1301_unmask-ai",
+    "kind": "llm_prompt",
+    "category": "Academic",
+    "description": "UnMask.AI — Detect & Humanize AI Text",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "skill/SKILL.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "basilahamed_venba_ai",
+    "name": "Venba AI",
+    "repo": "BASILAHAMED/venba_AI",
+    "path": "repos/english-humanizers/BASILAHAMED_venba_AI",
+    "kind": "llm_prompt",
+    "category": "Academic",
+    "description": "VENBA AI - AI Text Humanizer",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "rajat16nov_anti_slop",
+    "name": "Anti Slop",
+    "repo": "Rajat16nov/anti-slop",
+    "path": "repos/english-humanizers/Rajat16nov_anti-slop",
+    "kind": "llm_prompt",
+    "category": "Anti-Slop Rules",
+    "description": "A reference list of AI writing patterns. Words, phrases, and structural tells that show up far more often in LLM output than in human writing.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "checklist.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "sgsss998_de_ai_writing_skill",
+    "name": "De AI Writing Skill",
+    "repo": "sgsss998/de-ai-writing-skill",
+    "path": "repos/english-humanizers/sgsss998_de-ai-writing-skill",
+    "kind": "llm_prompt",
+    "category": "Anti-Slop Rules",
+    "description": "De-AI source material from sgsss998/de-ai-writing-skill.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "README.zh-CN.md",
+      "docs/SKILL.en.md",
+      "docs/SKILL.zh-CN.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "densematrix_labs_ai_humanizer",
+    "name": "AI Humanizer",
+    "repo": "densematrix-labs/ai-humanizer",
+    "path": "repos/english-humanizers/densematrix-labs_ai-humanizer",
+    "kind": "llm_prompt",
+    "category": "Detector-Oriented",
+    "description": "Text-rewriting project focused on reducing repetitive generated-language patterns.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "docs/SPEC.md",
+      "backend/requirements.txt",
+      "frontend/package.json",
+      "frontend/postcss.config.js",
+      "frontend/tailwind.config.js",
+      "frontend/tsconfig.json",
+      "frontend/tsconfig.node.json"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "unknownman1244_ai_humanizer_api",
+    "name": "AI Humanizer Api",
+    "repo": "unknownman1244/ai-humanizer-api",
+    "path": "repos/english-humanizers/unknownman1244_ai-humanizer-api",
+    "kind": "llm_prompt",
+    "category": "Detector-Oriented",
+    "description": "AI humanizer API material adapted into a De-AI rewrite node.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "ademola200_humanize_ai",
+    "name": "Humanize AI",
+    "repo": "ADEMOLA200/Humanize-AI",
+    "path": "repos/english-humanizers/ADEMOLA200_Humanize-AI",
+    "kind": "llm_prompt",
+    "category": "Detector-Oriented",
+    "description": "De-AI source material from ADEMOLA200/Humanize-AI.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "vardhin_humanizer",
+    "name": "Humanizer",
+    "repo": "vardhin/Humanizer",
+    "path": "repos/english-humanizers/vardhin_Humanizer",
+    "kind": "llm_prompt",
+    "category": "Detector-Oriented",
+    "description": "🔍 AI Detection: Detects AI-generated content at line and sentence levels, with visual highlighting and detailed statistics",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "frontend/README.md",
+      "frontend/jsconfig.json",
+      "frontend/package-lock.json",
+      "frontend/package.json",
+      "frontend/svelte.config.js",
+      "frontend/vite.config.js"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "omkarkale94031_crypto_humanwrite_ai",
+    "name": "Humanwrite AI",
+    "repo": "omkarkale94031-crypto/humanwrite-ai",
+    "path": "repos/english-humanizers/omkarkale94031-crypto_humanwrite-ai",
+    "kind": "llm_prompt",
+    "category": "Detector-Oriented",
+    "description": "De-AI material extracted from the repository.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "sidekickweb_sidekickweb",
+    "name": "Sidekickweb",
+    "repo": "SideKickWeb/SideKickWeb",
+    "path": "repos/english-humanizers/SideKickWeb_SideKickWeb",
+    "kind": "llm_prompt",
+    "category": "Detector-Oriented",
+    "description": "De-AI source material from SideKickWeb/SideKickWeb.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "toprak1224_toprak_ai_humanizer",
+    "name": "Toprak AI Humanizer",
+    "repo": "toprak1224/Toprak-AI-Humanizer",
+    "path": "repos/english-humanizers/toprak1224_Toprak-AI-Humanizer",
+    "kind": "llm_prompt",
+    "category": "Detector-Oriented",
+    "description": "Toprak AI Humanizer material adapted into a De-AI rewrite node.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "text2go_ai_humanizer_mcp_server",
+    "name": "AI Humanizer MCP Server",
+    "repo": "Text2Go/ai-humanizer-mcp-server",
+    "path": "repos/english-humanizers/Text2Go_ai-humanizer-mcp-server",
+    "kind": "llm_prompt",
+    "category": "MCP Decomposed",
+    "description": "AI Humanize MCP Server",
+    "integration_mode": "decomposed_mcp",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "package.json",
+      "src/index.ts"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "grantrmit_dev_ai_humanizer",
+    "name": "AI Humanizer",
+    "repo": "grantrmit-dev/ai-humanizer",
+    "path": "repos/english-humanizers/grantrmit-dev_ai-humanizer",
+    "kind": "llm_prompt",
+    "category": "Node/Web Decomposed",
+    "description": "De-AI material extracted from the repository.",
+    "integration_mode": "decomposed_node_web",
+    "prompt_files": [
+      "package.json"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "ofershap_ai_humanizer",
+    "name": "AI Humanizer",
+    "repo": "ofershap/ai-humanizer",
+    "path": "repos/english-humanizers/ofershap_ai-humanizer",
+    "kind": "llm_prompt",
+    "category": "Node/Web Decomposed",
+    "description": "AI humanizer skill and app material adapted into a De-AI rewrite node.",
+    "integration_mode": "decomposed_node_web",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "package.json",
+      "skills/ai-humanizer/SKILL.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "khizer_data_ai_text_humanizer",
+    "name": "AI Text Humanizer",
+    "repo": "Khizer-Data/AI-Text-Humanizer",
+    "path": "repos/english-humanizers/Khizer-Data_AI-Text-Humanizer",
+    "kind": "llm_prompt",
+    "category": "Node/Web Decomposed",
+    "description": "AI Text Humanizer app material adapted into a De-AI rewrite node.",
+    "integration_mode": "decomposed_node_web",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "package.json",
+      "requirements.txt",
+      "app/__init__.py",
+      "app/layout.tsx",
+      "app/main.py",
+      "app/page.tsx",
+      "app/utils.py"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "xoxxel_humanize_text",
+    "name": "Humanize Text",
+    "repo": "xoxxel/Humanize-Text",
+    "path": "repos/english-humanizers/xoxxel_Humanize-Text",
+    "kind": "llm_prompt",
+    "category": "Node/Web Decomposed",
+    "description": "Humanize Text app material adapted into a De-AI rewrite node.",
+    "integration_mode": "decomposed_node_web",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "package.json"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "ibraheem2513_humanizeai_plagiarism_remover",
+    "name": "Humanizeai Plagiarism Remover",
+    "repo": "Ibraheem2513/HumanizeAI_Plagiarism_Remover",
+    "path": "repos/english-humanizers/Ibraheem2513_HumanizeAI_Plagiarism_Remover",
+    "kind": "llm_prompt",
+    "category": "Node/Web Decomposed",
+    "description": "HumanizeAI plagiarism-remover material adapted into a De-AI rewrite node.",
+    "integration_mode": "decomposed_node_web",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "package.json",
+      "components/Background.tsx",
+      "components/GlassCard.tsx"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "eeman1113_janku_humaneyes",
+    "name": "Janku Humaneyes",
+    "repo": "Eeman1113/janku_humaneyes",
+    "path": "repos/english-humanizers/Eeman1113_janku_humaneyes",
+    "kind": "llm_prompt",
+    "category": "Node/Web Decomposed",
+    "description": "Janku Humaneyes app material adapted into a De-AI rewrite node.",
+    "integration_mode": "decomposed_node_web",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "package.json",
+      "app/layout.tsx",
+      "app/page.tsx",
+      "lib/utils.ts",
+      "components/ui/button.tsx",
+      "components/ui/card.tsx",
+      "components/ui/textarea.tsx"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "passeth_obsidian_ai_humanizer",
+    "name": "Obsidian AI Humanizer",
+    "repo": "passeth/obsidian-ai-humanizer",
+    "path": "repos/english-humanizers/passeth_obsidian-ai-humanizer",
+    "kind": "llm_prompt",
+    "category": "Node/Web Decomposed",
+    "description": "AI Humanizer - Obsidian Plugin",
+    "integration_mode": "decomposed_node_web",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "package.json",
+      "src/korean-nlp.ts",
+      "src/noise-injector.ts",
+      "src/openai-client.ts",
+      "src/structure-transformer.ts",
+      "src/text-metrics.ts",
+      "src/vocabulary-transformer.ts"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "cameronbyrne4_persona_style_scribe",
+    "name": "Persona Style Scribe",
+    "repo": "cameronbyrne4/persona-style-scribe",
+    "path": "repos/english-humanizers/cameronbyrne4_persona-style-scribe",
+    "kind": "llm_prompt",
+    "category": "Node/Web Decomposed",
+    "description": "Persona-style writing assistant material adapted into a De-AI rewrite node.",
+    "integration_mode": "decomposed_node_web",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "package.json",
+      "src/App.tsx",
+      "src/main.tsx",
+      "src/vite-env.d.ts",
+      "src/components/AuthenticatedLayout.tsx",
+      "src/components/Navigation.tsx",
+      "src/components/UploadModal.tsx"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "infoshlcabs_cmyk_text_humanizer_ai",
+    "name": "Text Humanizer AI",
+    "repo": "infoshlcabs-cmyk/text-humanizer-ai",
+    "path": "repos/english-humanizers/infoshlcabs-cmyk_text-humanizer-ai",
+    "kind": "llm_prompt",
+    "category": "Node/Web Decomposed",
+    "description": "De-AI material extracted from the repository.",
+    "integration_mode": "decomposed_node_web",
+    "prompt_files": [
+      "package.json",
+      "design_guidelines.md",
+      "replit.md",
+      "server/db.ts",
+      "server/gemini.ts",
+      "server/index.ts",
+      "server/routes.ts",
+      "server/storage.ts",
+      "server/vite.ts"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "ksanyok_texthumanize",
+    "name": "Texthumanize",
+    "repo": "ksanyok/TextHumanize",
+    "path": "repos/english-humanizers/ksanyok_TextHumanize",
+    "kind": "llm_prompt",
+    "category": "Node/Web Decomposed",
+    "description": "TextHumanize project material adapted into a De-AI rewrite node.",
+    "integration_mode": "decomposed_node_web",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "package.json",
+      "pyproject.toml",
+      "COMMERCIAL.md",
+      "CONTRIBUTORS.md",
+      "ROADMAP.md",
+      "docs/API_REFERENCE.md",
+      "docs/ASH_EVALUATION.md",
+      "docs/COMPETITIVE_ANALYSIS_v4_2026.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "abdullah_shahid_ai_content_humanizer",
+    "name": "AI Content Humanizer",
+    "repo": "Abdullah-Shahid/AI-Content-Humanizer",
+    "path": "repos/english-humanizers/Abdullah-Shahid_AI-Content-Humanizer",
+    "kind": "llm_prompt",
+    "category": "Python Decomposed",
+    "description": "AI Content Humanizer",
+    "integration_mode": "decomposed_python",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "pyproject.toml"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "vinaymaurya14_ai_content_humanizer",
+    "name": "AI Content Humanizer",
+    "repo": "vinaymaurya14/ai-content-humanizer",
+    "path": "repos/english-humanizers/vinaymaurya14_ai-content-humanizer",
+    "kind": "llm_prompt",
+    "category": "Python Decomposed",
+    "description": "AI Content Humanizer",
+    "integration_mode": "decomposed_python",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "requirements.txt",
+      "app/__init__.py",
+      "app/config.py",
+      "app/main.py",
+      "app/core/__init__.py",
+      "app/core/burstiness.py",
+      "app/core/perplexity.py"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "firdavs_coder_ai_humanizer",
+    "name": "AI Humanizer",
+    "repo": "Firdavs-coder/ai_humanizer",
+    "path": "repos/english-humanizers/Firdavs-coder_ai_humanizer",
+    "kind": "llm_prompt",
+    "category": "Python Decomposed",
+    "description": "AI Text Humanizer Documentation",
+    "integration_mode": "decomposed_python",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "requirements.txt"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "haryaksh1_ai_humanizers",
+    "name": "AI Humanizers",
+    "repo": "Haryaksh1/ai-humanizers",
+    "path": "repos/english-humanizers/Haryaksh1_ai-humanizers",
+    "kind": "llm_prompt",
+    "category": "Python Decomposed",
+    "description": "Welcome to AI Text Humanizer : an open-source project that transforms robotic or AI-generated writing into fluent, natural, human-like text.",
+    "integration_mode": "decomposed_python",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "requirements.txt",
+      "IMPLEMENTATION_SUMMARY.md",
+      "ISSUE_TEMPLATE.md",
+      "api/app.py"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "rehmanansarifaisal_ai_aicontent_humanizer",
+    "name": "Aicontent Humanizer",
+    "repo": "rehmanansarifaisal-ai/aicontent-humanizer",
+    "path": "repos/english-humanizers/rehmanansarifaisal-ai_aicontent-humanizer",
+    "kind": "llm_prompt",
+    "category": "Python Decomposed",
+    "description": "De-AI material extracted from the repository.",
+    "integration_mode": "decomposed_python",
+    "prompt_files": [
+      "requirements.txt"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "yt6363_anti_slop_skill_claude",
+    "name": "Anti Slop Skill Claude",
+    "repo": "yt6363/anti-slop-skill-claude",
+    "path": "repos/english-humanizers/yt6363_anti-slop-skill-claude",
+    "kind": "llm_prompt",
+    "category": "Python Decomposed",
+    "description": "AI Writing Humanizer",
+    "integration_mode": "decomposed_python",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "requirements.txt",
+      "writing-rules.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "codeproexpert1_autohumanize_automated_docx_text_humanization",
+    "name": "Autohumanize Automated Docx Text Humanization",
+    "repo": "codeproexpert1/AutoHumanize-Automated-DOCX-Text-Humanization",
+    "path": "repos/english-humanizers/codeproexpert1_AutoHumanize-Automated-DOCX-Text-Humanization",
+    "kind": "llm_prompt",
+    "category": "Python Decomposed",
+    "description": "AutoHumanize Automated DOCX Text Humanization",
+    "integration_mode": "decomposed_python",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "requirements.txt"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "sarcasterxo_gpt_humanizer",
+    "name": "GPT Humanizer",
+    "repo": "sarcasterXO/gpt-humanizer",
+    "path": "repos/english-humanizers/sarcasterXO_gpt-humanizer",
+    "kind": "llm_prompt",
+    "category": "Python Decomposed",
+    "description": "A Pynecone application for rewriting generated text into more readable prose.",
+    "integration_mode": "decomposed_python",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "requirements.txt"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "mohit1053_humanizer",
+    "name": "Humanizer",
+    "repo": "Mohit1053/Humanizer",
+    "path": "repos/english-humanizers/Mohit1053_Humanizer",
+    "kind": "llm_prompt",
+    "category": "Python Decomposed",
+    "description": "Humanizer material for transforming generated text into more natural prose.",
+    "integration_mode": "decomposed_python",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "requirements.txt",
+      "TEST_SAMPLES_READY.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "horus_bot_humify",
+    "name": "Humify",
+    "repo": "horus-bot/Humify",
+    "path": "repos/english-humanizers/horus-bot_Humify",
+    "kind": "llm_prompt",
+    "category": "Python Decomposed",
+    "description": "De-AI source material from horus-bot/Humify.",
+    "integration_mode": "decomposed_python",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "requirements.txt",
+      "backend/src/main.rs"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "ppegggyy_peggywritesforyou",
+    "name": "Peggywritesforyou",
+    "repo": "ppegggyy/peggywritesforyou",
+    "path": "repos/english-humanizers/ppegggyy_peggywritesforyou",
+    "kind": "llm_prompt",
+    "category": "Python Decomposed",
+    "description": "PeggyWritesForYou: SOTA Adversarial Text Humanizer",
+    "integration_mode": "decomposed_python",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "requirements.txt"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "omaelbaz_ai_humanizer",
+    "name": "AI Humanizer",
+    "repo": "omaelbaz/Ai-humanizer",
+    "path": "repos/english-humanizers/omaelbaz_Ai-humanizer",
+    "kind": "llm_prompt",
+    "category": "Reference / App Decomposed",
+    "description": "De-AI material extracted from the repository.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "zayuvalya_ai_text_humanizer",
+    "name": "AI Text Humanizer",
+    "repo": "ZAYUVALYA/AI-Text-Humanizer",
+    "path": "repos/english-humanizers/ZAYUVALYA_AI-Text-Humanizer",
+    "kind": "llm_prompt",
+    "category": "Reference / App Decomposed",
+    "description": "ZAYUVALYA - AI Humanizer",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "adminnsg3_aichecker",
+    "name": "Aichecker",
+    "repo": "adminnsg3/AIChecker",
+    "path": "repos/english-humanizers/adminnsg3_AIChecker",
+    "kind": "llm_prompt",
+    "category": "Reference / App Decomposed",
+    "description": "De-AI material extracted from the repository.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "app/README.md",
+      "app/.dart_tool/package_config.json",
+      "app/linux/CMakeLists.txt",
+      "app/web/manifest.json",
+      "app/windows/CMakeLists.txt",
+      "app/android/app/google-services.json"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "dhruvagarwal7017_lab_claude_humanizer",
+    "name": "Claude Humanizer",
+    "repo": "dhruvagarwal7017-lab/Claude-humanizer",
+    "path": "repos/english-humanizers/dhruvagarwal7017-lab_Claude-humanizer",
+    "kind": "llm_prompt",
+    "category": "Reference / App Decomposed",
+    "description": "De-AI material extracted from the repository.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "ammieypelesydjeq_content_humanizer",
+    "name": "Content Humanizer",
+    "repo": "ammieypelesydjeq/content-humanizer",
+    "path": "repos/english-humanizers/ammieypelesydjeq_content-humanizer",
+    "kind": "llm_prompt",
+    "category": "Reference / App Decomposed",
+    "description": "Content Humanizer Scraper",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "kizmocudev_content_humanizer",
+    "name": "Content Humanizer",
+    "repo": "kizmocuDev/content-humanizer",
+    "path": "repos/english-humanizers/kizmocuDev_content-humanizer",
+    "kind": "llm_prompt",
+    "category": "Reference / App Decomposed",
+    "description": "content-humanizer - Transform Text into Engaging Content",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "humanize_ai_info_free_ai_humanizer",
+    "name": "Free AI Humanizer",
+    "repo": "humanize-ai-info/Free-AI-Humanizer",
+    "path": "repos/english-humanizers/humanize-ai-info_Free-AI-Humanizer",
+    "kind": "llm_prompt",
+    "category": "Reference / App Decomposed",
+    "description": "De-AI material extracted from the repository.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "firdavs_coder_humaify",
+    "name": "Humaify",
+    "repo": "Firdavs-coder/humaify",
+    "path": "repos/english-humanizers/Firdavs-coder_humaify",
+    "kind": "llm_prompt",
+    "category": "Reference / App Decomposed",
+    "description": "Humaify humanizer app material adapted into a De-AI rewrite node.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "simonkarl250_paraphraser_ai_text_humanizer_zero_percent",
+    "name": "Paraphraser AI Text Humanizer Zero Percent",
+    "repo": "simonkarl250/Paraphraser_AI_text_Humanizer_Zero_percent",
+    "path": "repos/english-humanizers/simonkarl250_Paraphraser_AI_text_Humanizer_Zero_percent",
+    "kind": "llm_prompt",
+    "category": "Reference / App Decomposed",
+    "description": "Replaces 60% of the words in the input text with synonyms.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "src/__init__.py",
+      "src/main.py",
+      "src/rewriter.py"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "er_go_proxy_ai_forgets_itself",
+    "name": "AI Forgets Itself",
+    "repo": "er-go-proxy/ai-forgets-itself",
+    "path": "repos/english-humanizers/er-go-proxy_ai-forgets-itself",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "De-AI source material from er-go-proxy/ai-forgets-itself.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "ai-forgets-itself/SKILL.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "nekoojisan_labo_ai_humanizer_skill",
+    "name": "AI Humanizer Skill",
+    "repo": "nekoojisan-labo/ai-humanizer-skill",
+    "path": "repos/english-humanizers/nekoojisan-labo_ai-humanizer-skill",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "ai-humanizer — Claude Code Skill",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "ai-humanizer/SKILL.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "itscloud0_ai_text_humanizer",
+    "name": "AI Text Humanizer",
+    "repo": "itscloud0/ai-text-humanizer",
+    "path": "repos/english-humanizers/itscloud0_ai-text-humanizer",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "AI Text Humanizer Skill",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "skills/ai-text-humanizer/SKILL.md",
+      "skills/ai-text-humanizer/references/patterns.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "dianagolduber_anti_slop",
+    "name": "Anti Slop",
+    "repo": "dianagolduber/anti-slop",
+    "path": "repos/english-humanizers/dianagolduber_anti-slop",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "Readers notice. Trust drops.",
+    "integration_mode": "native_skill",
+    "prompt_files": [
+      "SKILL.md",
+      "skill.md",
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "adenaufal_anti_slop_writing",
+    "name": "Anti Slop Writing",
+    "repo": "adenaufal/anti-slop-writing",
+    "path": "repos/english-humanizers/adenaufal_anti-slop-writing",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "Anti-slop writing material with an English README adapted into a De-AI rewrite node.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "README.en.md",
+      "readme.md",
+      "INSTALL.md",
+      "english/SKILL.md",
+      "indonesian/SKILL.md",
+      "references/structural-patterns.md",
+      "references/vocabulary-banlist.md",
+      "references/wikipedia-sign-ai-writing.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "coderjatin_anti_slop_writing",
+    "name": "Anti Slop Writing",
+    "repo": "coderjatin/anti-slop-writing",
+    "path": "repos/english-humanizers/coderjatin_anti-slop-writing",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "anti-slop-writing - Improve Your AI’s Writing Style",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "README.en.md",
+      "readme.md",
+      "english/SKILL.md",
+      "indonesian/SKILL.md",
+      "references/structural-patterns.md",
+      "references/vocabulary-banlist.md",
+      "references/wikipedia-sign-ai-writing.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "chukant20_cyber_chuksbooks_humaniser_tool",
+    "name": "Chuksbooks Humaniser Tool",
+    "repo": "chukant20-cyber/Chuksbooks-Humaniser-tool",
+    "path": "repos/english-humanizers/chukant20-cyber_Chuksbooks-Humaniser-tool",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "Chuksbooks Humaniser Tool",
+    "integration_mode": "native_skill",
+    "prompt_files": [
+      "SKILL.md",
+      "skill.md",
+      "README.md",
+      "readme.md",
+      "output-templates.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "diaiq_claude_skill_humanizer",
+    "name": "Claude Skill Humanizer",
+    "repo": "diaiq/claude-skill-humanizer",
+    "path": "repos/english-humanizers/diaiq_claude-skill-humanizer",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "Claude Skill Humanizer material adapted into a De-AI rewrite node.",
+    "integration_mode": "native_skill",
+    "prompt_files": [
+      "SKILL.md",
+      "skill.md",
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "jacobdiaz_deai",
+    "name": "Deai",
+    "repo": "jacobdiaz/DeAi",
+    "path": "repos/english-humanizers/jacobdiaz_DeAi",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "DeAi skill material for removing boilerplate openings and AI-sounding phrasing.",
+    "integration_mode": "native_skill",
+    "prompt_files": [
+      "SKILL.md",
+      "skill.md",
+      "README.md",
+      "readme.md",
+      "WARP.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "sirambrosio_humanink",
+    "name": "Humanink",
+    "repo": "sirambrosio/humanink",
+    "path": "repos/english-humanizers/sirambrosio_humanink",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "HumanInk — AI Writing Detector & Humanizer for Claude",
+    "integration_mode": "native_skill",
+    "prompt_files": [
+      "SKILL.md",
+      "skill.md",
+      "README.md",
+      "readme.md",
+      "patterns.md",
+      "PATTERNS.md",
+      "STYLEGUIDE.md",
+      "WARP.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "decurved_agreement62_humanizalo",
+    "name": "Humanizalo",
+    "repo": "decurved-agreement62/humanizalo",
+    "path": "repos/english-humanizers/decurved-agreement62_humanizalo",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "Humanizalo skill material for making AI text sound more human.",
+    "integration_mode": "native_skill",
+    "prompt_files": [
+      "SKILL.md",
+      "skill.md",
+      "README.md",
+      "readme.md",
+      "README.es.md",
+      "references/communication.md",
+      "references/examples.md",
+      "references/formatting.md",
+      "references/structures.md",
+      "references/vocabulary.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "bobipika2026_humanize",
+    "name": "Humanize",
+    "repo": "bobipika2026/humanize",
+    "path": "repos/english-humanizers/bobipika2026_humanize",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "AI content humanization detection and optimization skill for OpenClaw",
+    "integration_mode": "native_skill",
+    "prompt_files": [
+      "SKILL.md",
+      "skill.md",
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "lguz_humanize_writing_skill",
+    "name": "Humanize Writing Skill",
+    "repo": "lguz/humanize-writing-skill",
+    "path": "repos/english-humanizers/lguz_humanize-writing-skill",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "A prompt-based writing editor that rewrites AI-generated text to sound like a real human wrote it.",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "skills/humanize-writing/SKILL.md",
+      "skills/humanize-writing/references/ai-patterns-dictionary.md",
+      "skills/humanize-writing/references/voices.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "thekozugroup_humanizer",
+    "name": "Humanizer",
+    "repo": "thekozugroup/humanizer",
+    "path": "repos/english-humanizers/thekozugroup_humanizer",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "A Rust-backed AI skill that strips AI-generated patterns from writing and rebuilds it with rhythm and voice.",
+    "integration_mode": "native_skill",
+    "prompt_files": [
+      "SKILL.md",
+      "skill.md",
+      "README.md",
+      "readme.md",
+      "references/patterns.md",
+      "references/vocabulary.md",
+      "references/voices.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "aprempeh_tech_humanizer_workbench",
+    "name": "Humanizer Workbench",
+    "repo": "aprempeh-tech/humanizer-workbench",
+    "path": "repos/english-humanizers/aprempeh-tech_humanizer-workbench",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "humanizer-workbench - Rewrite AI Text Into Natural Writing",
+    "integration_mode": "native_skill",
+    "prompt_files": [
+      "SKILL.md",
+      "skill.md",
+      "README.md",
+      "readme.md",
+      "pyproject.toml",
+      "docs/architecture.md",
+      "src/humanizer/__init__.py",
+      "src/humanizer/cli/__init__.py",
+      "src/humanizer/cli/main.py",
+      "src/humanizer/core/__init__.py",
+      "src/humanizer/core/engine.py",
+      "src/humanizer/core/models.py"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "itsjwill_humanizer_x",
+    "name": "Humanizer X",
+    "repo": "itsjwill/humanizer-x",
+    "path": "repos/english-humanizers/itsjwill_humanizer-x",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "Humanizer X prompt material for revising repetitive AI-style prose.",
+    "integration_mode": "native_skill",
+    "prompt_files": [
+      "SKILL.md",
+      "skill.md",
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "nikhildaswani_niks_humanizer",
+    "name": "Niks Humanizer",
+    "repo": "nikhildaswani/Niks_Humanizer",
+    "path": "repos/english-humanizers/nikhildaswani_Niks_Humanizer",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "Humanizer is a writing-editing skill that removes common AI writing patterns and",
+    "integration_mode": "native_skill",
+    "prompt_files": [
+      "SKILL.md",
+      "skill.md",
+      "README.md",
+      "readme.md"
+    ],
+    "timeout": 90
+  },
+  {
+    "id": "hthieu1992_unai",
+    "name": "Unai",
+    "repo": "hthieu1992/unai",
+    "path": "repos/english-humanizers/hthieu1992_unai",
+    "kind": "llm_prompt",
+    "category": "Skill / Prompt",
+    "description": "unai - Simplify AI Text and Code",
+    "integration_mode": "decomposed_reference",
+    "prompt_files": [
+      "README.md",
+      "readme.md",
+      "CHALLENGE.md",
+      "CURSOR.md",
+      "WARP.md",
+      "prompts/agents.md",
+      "prompts/claude-code.md",
+      "prompts/system-prompt.md",
+      "rules/api-design.md",
+      "rules/code-comments.md"
+    ],
+    "timeout": 90
+  }
+]

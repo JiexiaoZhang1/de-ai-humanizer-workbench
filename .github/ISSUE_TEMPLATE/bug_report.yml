@@ -1,0 +1,66 @@
+name: Bug report
+description: Report a reproducible problem without sharing credentials or private text.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting a problem. Replace private source text with a minimal synthetic example.
+  - type: input
+    id: version
+    attributes:
+      label: Commit or version
+      description: Commit SHA or date of the checkout.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Browser interface
+        - Pipeline execution
+        - Output cleanup
+        - Protected content
+        - Optional source cache
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Include a minimal synthetic input and node IDs when relevant.
+      placeholder: |
+        1. Start the server...
+        2. Use pipeline...
+        3. Submit synthetic text...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: macOS 15, Python 3.13, Chrome 138
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Sensitive-data check
+      options:
+        - label: I removed API keys, authorization headers, private documents, and personal data from this report.
+          required: true

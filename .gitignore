@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local credentials and environment overrides
+config.local.json
+.env
+.env.*
+!.env.example
+
+# Downloaded third-party repositories are local reference caches only
+repos/english-humanizers/
+
+# Generated reports and development artifacts
+tmp/
+tmp_qa_*.json
+output/
+.playwright/
+*.log
+node_modules/
+
+# Historical local data that is not part of the public runtime
+data/*.backup.json

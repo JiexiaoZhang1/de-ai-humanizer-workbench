@@ -1,0 +1,37 @@
+name: Feature request
+description: Propose a focused improvement to the workbench or quality controls.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What concrete workflow or failure is difficult today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Describe the smallest useful change and how a user would interact with it.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: textarea
+    id: risks
+    attributes:
+      label: Privacy, security, cost, or licensing considerations
+      description: Note any new data flow, model calls, dependencies, or third-party content.
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This request does not depend on a detector-bypass guarantee.
+          required: true
+        - label: I have not included credentials or private source text.
+          required: true

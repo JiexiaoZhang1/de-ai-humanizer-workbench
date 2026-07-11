@@ -1,0 +1,3 @@
+As AI tools become part of everyday research and product work, teams are seeing a meaningful shift in how they draft, revise, and publish written material. This paper aims to explore the value of AI-assisted writing and analyze its role in productivity, knowledge synthesis, and editorial decision-making.
+
+First, AI systems can organize scattered notes and help writers identify weak sections in an argument, thereby providing more precise guidance for revision. Second, automated drafting tools can improve the efficiency of repetitive writing tasks and reduce the burden of routine editing. Finally, these systems may also introduce concerns around accuracy, originality, privacy, and over-reliance on generic phrasing.
